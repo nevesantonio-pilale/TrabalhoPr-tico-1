@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Mingzat', sans-serif;
+}
+
+.container {
+	width:75%;
+	margin: 0 auto;
+}
+
+body {
+	background-color: #E5E9ECFF;
+}
+
+/* header */
+
+header {
+	padding: 10px;
+	background-color: #446977FF;
+}
+
+.logo {
+	width: 80px;
+	height: 80px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.logo img {
+	width: 100%;
+	border-radius: 100%;
+}
+
+/* nav */
+
+.navebar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav {
+	padding: 10px;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 18px;
+	margin: 0 20px 0 0;
+	color: #FFFFFF;
+}
+
+
+nav a:hover {
+	/*color: #4a4846;*/
+	color: #e46634;
+}
+
+/* banner */
+
+.banner {
+	height: 100vh;
+	line-height: 40px;
+}
+
+.baner-content {
+	display: flex;
+	align-items: center;
+}
+
+
+.img-baner:hover {
+	width: 500px;
+	height: 200px;
+	cursor: pointer;
+}
+
+
+.slongan {
+	position: relative;
+	top: 200px;
+	left: 100px;
+	padding-left: 100px;
+}
+
+
+.slongan h1 {
+	color: #e46634;
+	font-size: 46px;
+}
+
+
+.slongan p {
+	font-size: 24px;
+}
+
+
+p span {
+	color: #e46634;
+}
+
+
+.button {
+	margin-top: 20px;
+	background-color: #5c0635;
+	padding: 15px 50px 15px 50px;
+	border-radius: 20px;
+	color: #f1f1f1;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: none;
+}
+
+
+.button:hover {
+	background-color: #446977FF;
+}
+
+/* Quem somos */
+.quemSomos {
+	padding: 20px;
+	display: flex;
+	background-color: #348065;
+}
+.img-sobre {
+	width: 800px;
+	height: 280px;
+}
+
+.img-sobre img {
+	width: 100%;
+}
+
+.quemSomos_info {
+	margin-left: 30px;
+}
+
+.titulo {
+	padding-bottom: 20px;
+}
+
+.btn {
+	margin-top: 60px;
+	margin-left: 200px;
+	background-color: #5c0635;
+	padding: 15px 50px 15px 50px;
+	border-radius: 20px;
+	color: #f1f1f1;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: none;
+}
+
+.btn:hover {
+	background-color: #446977FF;
+	transition: 2s;
+}
