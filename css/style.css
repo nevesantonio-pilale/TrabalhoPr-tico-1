@@ -307,4 +307,22 @@ footer .parag {
 	color: #ccc;
 }
 
+/* pagina sobre */
+.img-sobre-page {
+	width: 600px;
+}
+
+.img-sobre-page img {
+	width: 100%;
+}
+
+
+.main-content {
+	display: flex;
+}
+
+.abour-banner {
+	display: flex;
+}
+
 
