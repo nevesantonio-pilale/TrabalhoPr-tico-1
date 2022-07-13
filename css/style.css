@@ -14,6 +14,12 @@ body {
 	background-color: #E5E9ECFF;
 }
 
+h2 {
+	color: #ad7e17;
+	font-size: 16;
+}
+
+
 /* header */
 
 header {
@@ -87,8 +93,9 @@ nav a:hover {
 
 
 .slongan h1 {
-	color: #e46634;
+	color: #ad7e17;
 	font-size: 46px;
+	margin-bottom: 10px;
 }
 
 
@@ -137,8 +144,13 @@ p span {
 	margin-left: 30px;
 }
 
+.quemSomos_info p {
+	color: #fefefe;
+}
+
 .titulo {
 	padding-bottom: 20px;
+	color: #fefefe;
 }
 
 .btn {
@@ -156,4 +168,62 @@ p span {
 .btn:hover {
 	background-color: #446977FF;
 	transition: 2s;
+}
+
+/* Serviços */
+
+.cards {
+	margin-top: 30px;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+ul li {
+	width: 22%;
+	list-style: none;
+	margin-left: 46px;
+	background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+.card-img {
+	width: 260px;
+	height: 100px;
+}
+
+
+.card-img img {
+	width: 100%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+
+.card-content {
+	margin-top: 80px;
+}
+
+
+.card-content h2 {
+	color: #ad7e17;
+	padding: 10px 0 20px 0;
+}
+
+.card-content p {
+	padding: 15px;
+	font-size: 18px;
+}
+
+
+.card {
+	margin: 0;
+}
+
+.card-last {
+	margin-right: 0;
 }
