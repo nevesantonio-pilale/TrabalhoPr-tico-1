@@ -10,9 +10,6 @@
 	margin: 0 auto;
 }
 
-body {
-	background-color: #E5E9ECFF;
-}
 
 h2 {
 	color: #ad7e17;
@@ -72,6 +69,7 @@ nav a:hover {
 }
 
 .baner-content {
+	width: 1200px;
 	display: flex;
 	align-items: center;
 }
@@ -89,6 +87,7 @@ nav a:hover {
 	top: 200px;
 	left: 100px;
 	padding-left: 100px;
+	width: 1200px;
 }
 
 
@@ -227,3 +226,85 @@ ul li {
 .card-last {
 	margin-right: 0;
 }
+
+/* Table */
+table {
+	border: 1px solid #ccc;
+}
+#table {
+	margin-top: 250px;
+
+}
+
+#table h2 {
+	margin-bottom: 20px;
+}
+
+table thead {
+	background-color: #446977FF;
+	color: #fff;
+}
+
+thead th, tr, td {
+	padding: 10px 30px 10px 30px;
+	text-align: center;
+}
+
+
+caption {
+	background-color: #446977FF;
+	color: #fff;
+	padding: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.td-footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.td-footer p {
+	padding: 10px;
+}
+
+tfoot  {
+	background-color: #446977FF;
+}
+
+/* footer */
+.footer {
+	background-color: #191b1c;
+}
+
+
+.footer-adress {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+}
+
+.footer-adress h3 {
+	font-size: 20px;
+	color: #fff;
+}
+
+.footer-adress p {
+	color: #fefefe;
+	line-height: 30px;
+}
+
+
+footer .parag {
+	padding: 20px;
+	text-align: center;
+	color: #ccc;
+}
+
+
