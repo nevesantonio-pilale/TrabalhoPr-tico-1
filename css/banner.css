@@ -1,0 +1,60 @@
+.banner {
+	height: 100vh;
+	line-height: 40px;
+}
+
+.baner-content {
+	width: 1200px;
+	display: flex;
+	align-items: center;
+}
+
+
+.img-baner:hover {
+	width: 500px;
+	height: 200px;
+	cursor: pointer;
+}
+
+
+.slongan {
+	position: relative;
+	top: 200px;
+	left: 100px;
+	padding-left: 100px;
+	width: 1200px;
+}
+
+
+.slongan h1 {
+	color: #ad7e17;
+	font-size: 46px;
+	margin-bottom: 10px;
+}
+
+
+.slongan p {
+	font-size: 24px;
+}
+
+
+p span {
+	color: #e46634;
+}
+
+
+.button {
+	margin-top: 20px;
+	background-color: #5c0635;
+	padding: 15px 50px 15px 50px;
+	border-radius: 20px;
+	color: #f1f1f1;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: none;
+}
+
+
+.button:hover {
+	background-color: #446977FF;
+}
