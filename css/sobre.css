@@ -1,0 +1,51 @@
+#main h2 {
+    margin-top: 80px;
+    border-bottom: 3px solid #ccc;
+}
+
+.main-content {
+    margin-top: 20px;
+	display: flex;
+}
+
+.about-banner {
+	display: flex;
+}
+
+/*.img-sobre-page {
+    width: 600px;
+    height: 500px;
+}*/
+
+.img-sobre-page img {
+    width: 600px;
+    height: 500px;
+}
+
+.text {
+    padding: 0px 20px 0 40px;
+    line-height: 27px;
+}
+
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: black;
+}
+
+/*.redes-sociais a {
+    padding: 5px;
+    background-color: #ccc;
+    border-radius: 2px;
+}*/
+
+
+.redes-sociais a:hover {
+    padding: 5px;
+    background-color: #ccc;
+    border-radius: 2px;
+}
