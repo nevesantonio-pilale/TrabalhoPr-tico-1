@@ -2,6 +2,7 @@
 @import 'style.css';
 @import 'sobre.css';
 @import 'contacto.css';
+@import 'midiaquery.css';
 
 * {
 	margin: 0;
